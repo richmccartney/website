@@ -1,5 +1,5 @@
 import { Logo } from "../components/Logo";
-import { Navigation } from "../components/navigation";
+import { Navigation } from "../components/Navigation";
 import { Header } from "../components/Header";
 import { ThemeToggle } from "../components/ThemeToggle";
 
