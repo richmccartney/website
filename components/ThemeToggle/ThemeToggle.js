@@ -1,4 +1,4 @@
-import "./ThemeToggle.css";
+import "./ThemeToggle.module.css";
 
 const ThemeToggle = () => {
   return (

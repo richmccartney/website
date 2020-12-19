@@ -1,10 +1,10 @@
 import PropTypes from "prop-types";
 
-import "./Logo.css";
+import styles from "./Logo.module.css";
 
 const Logo = ({ children, link }) => {
   return (
-    <a href={link} className="Logo">
+    <a href={link} className={styles.Logo}>
       {children}
     </a>
   );

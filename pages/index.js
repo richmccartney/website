@@ -1,10 +1,18 @@
-import HelloWorld from '../components'
+import { Logo } from "../components/Logo";
+import { Navigation } from "../components/navigation";
+import { Header } from "../components/Header";
+import { ThemeToggle } from "../components/ThemeToggle";
 
-export default function Home() {
+const Home = () => {
   return (
-    <div>
-      <h1>Simple Storybook Example</h1>
-      <HelloWorld />
-    </div>
-  )
-}
+    <Header>
+      <Logo link="#logo">Logo</Logo>
+      <Navigation>
+        <Navigation.Item link="#logo">Link 1</Navigation.Item>
+      </Navigation>
+      <ThemeToggle />
+    </Header>
+  );
+};
+
+export default Home;

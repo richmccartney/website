@@ -1,9 +1,9 @@
 import NavigationItem from "./NavigationItem";
 
-import "./Navigation.css";
+import styles from "./Navigation.module.css";
 
 const Navigation = ({ children }) => {
-  return <nav className="Navigation">{children}</nav>;
+  return <nav className={styles.Navigation}>{children}</nav>;
 };
 
 Navigation.Item = NavigationItem;
