@@ -1,13 +1,14 @@
 {
-  "name": "with-storybook",
+  "name": "website",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "next:dev": "next",
+    "next:build": "next build",
+    "next:start": "next start",
+    "next:export": "next export",
+    "storybook:dev": "start-storybook -p 6006",
+    "storybook:build": "build-storybook"
   },
   "dependencies": {
     "next": "latest",
