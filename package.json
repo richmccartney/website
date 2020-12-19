@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "next:dev": "next",
-    "next:build": "next build",
-    "next:start": "next start",
-    "next:export": "next export",
-    "storybook:dev": "start-storybook -p 6006",
-    "storybook:build": "build-storybook"
+    "dev:next": "next",
+    "dev:storybook": "start-storybook -p 6006",
+    "build:all": "yarn build:next && yarn build:next",
+    "build:next": "next build",
+    "build:storybook": "build-storybook -o ./out/storybook",
+    "export:next": "next export",
+    "start:next": "next start"
   },
   "dependencies": {
     "next": "latest",
