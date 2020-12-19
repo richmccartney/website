@@ -5,7 +5,6 @@
   "scripts": {
     "dev:next": "next",
     "dev:storybook": "start-storybook -p 6006",
-    "build:all": "yarn build:storybook && yarn build:next",
     "build:next": "next build",
     "build:storybook": "build-storybook -o ./out/storybook",
     "export:next": "next export",
